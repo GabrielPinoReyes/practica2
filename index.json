@@ -1,0 +1,51 @@
+{
+    "nombre": "Mi primera página web",
+    "idioma": "es",
+    "archivos": {
+        "html": "index.html",
+        "css": "estilos.css"
+    },
+    "estructura": {
+        "header": {
+            "titulo": "Mi primera página web",
+            "descripcion": "Bienvenido a mi página"
+        },
+        "nav": [
+            "Inicio",
+            "Sobre nosotros",
+            "Contacto"
+        ],
+        "main": {
+            "secciones": [
+                {
+                    "id": "inicio",
+                    "titulo": "Inicio",
+                    "contenido": "Esta es mi primera página web utilizando HTML y CSS."
+                },
+                {
+                    "id": "sobre",
+                    "titulo": "Sobre nosotros",
+                    "contenido": "Estamos aprendiendo a crear páginas web con HTML y CSS."
+                },
+                {
+                    "id": "contacto",
+                    "titulo": "Contacto",
+                    "formulario": [
+                        "nombre",
+                        "email",
+                        "mensaje"
+                    ]
+                }
+            ]
+        },
+        "footer": {
+            "texto": "© 2026 Mi primera página web"
+        }
+    },
+    "estilos": {
+        "fuente": "Arial",
+        "fondo": "#f2f2f2",
+        "color_principal": "#333333",
+        "color_secundario": "#555555"
+    }
+}
